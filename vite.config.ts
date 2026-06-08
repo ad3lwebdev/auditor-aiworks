@@ -19,4 +19,6 @@ const config = defineConfig({
   ],
 })
 
-export default config
+export default config ({
+  base: '/auditor-aiworks/'
+})
